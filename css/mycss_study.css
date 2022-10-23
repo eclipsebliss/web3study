@@ -1,0 +1,16 @@
+body {
+    background-image: url("../public/backgroud.jpg");
+    background-size: 100%;
+}
+
+thead {
+    color: darkblue;
+}
+
+table {
+    color: gold;
+}
+
+div {
+    margin-top: 20%;
+}

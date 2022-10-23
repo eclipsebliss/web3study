@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ballot DApp</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- 导入自己的css文件 -->
+    <link rel="stylesheet" type="text/css" href="css/mycss.css">
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/web3/dist/web3.min.js"></script>
+    <script src="js/Voting.min.js"></script>
+    <!-- 导入自己的js文件 -->
+
+</head>
+
+<body class="container">
+    <div class="table-responsive">
+        <table class="table table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>Candidate</th>
+                    <th>Votes</th>
+                    <th>Operation</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>sunpu</td>
+                    <td id="candidate-1"></td>
+                    <td>
+                        <a href="#" onclick="voteForCandidate('sunpu')" class="btn btn-primary">Vote</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>wangting</td>
+                    <td id="candidate-2"></td>
+                    <td>
+                        <a href="#" onclick="voteForCandidate('wangting')" class="btn btn-primary">Vote</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>haha</td>
+                    <td id="candidate-3"></td>
+                    <td>
+                        <a href="#" onclick="voteForCandidate('haha')" class="btn btn-primary">Vote</a>
+                    </td>
+                </tr>
+            </tbody>
+
+        </table>
+
+    </div>
+
+</body>
+
+</html>
